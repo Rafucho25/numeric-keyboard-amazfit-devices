@@ -9,6 +9,7 @@ A simple numeric keyboard for amazfit band 7.
 ## How it works
 
 * The constructor accept one parameter: the coordinate "y" of the keyboard(default is 40) this is for example if you want to display something before the keyboard you can. 
+* You can use the file example.js(put in the page folder) to see the keyboard in action 
 
 ## How to use
 
