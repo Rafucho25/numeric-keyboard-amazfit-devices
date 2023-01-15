@@ -16,10 +16,13 @@ export class keyboard
         hmUI.createWidget(hmUI.widget.BUTTON, {
             x: 2,
             y: this.start_y + 60,
-            w: -1,
-            h: -1,
-            normal_src: 'keyboard/number6_key.png',
-            press_src: 'keyboard/number6_press_key.png',
+            w: 45,
+            h: 45,
+            radius: 30,
+            text: 6,
+            text_size: 31,
+            normal_color: 0x333333,
+            press_color: 0x0986D4,
             click_func: () => {
                 this.addCharacter('6', text_input);
             }
@@ -28,10 +31,13 @@ export class keyboard
         hmUI.createWidget(hmUI.widget.BUTTON, {
             x: 50,
             y: this.start_y + 60,
-            w: -1,
-            h: -1,
-            normal_src: 'keyboard/number7_key.png',
-            press_src: 'keyboard/number7_press_key.png',
+            w: 45,
+            h: 45,
+            radius: 30,
+            text: 7,
+            text_size: 31,
+            normal_color: 0x333333,
+            press_color: 0x0986D4,
             click_func: () => {
                 this.addCharacter('7', text_input);
             }
@@ -40,10 +46,13 @@ export class keyboard
         hmUI.createWidget(hmUI.widget.BUTTON, {
             x: 98,
             y: this.start_y + 60,
-            w: -1,
-            h: -1,
-            normal_src: 'keyboard/number8_key.png',
-            press_src: 'keyboard/number8_press_key.png',
+            w: 45,
+            h: 45,
+            radius: 30,
+            text: 8,
+            text_size: 31,
+            normal_color: 0x333333,
+            press_color: 0x0986D4,
             click_func: () => {
                 this.addCharacter('8', text_input);
             }
@@ -52,10 +61,13 @@ export class keyboard
         hmUI.createWidget(hmUI.widget.BUTTON, {
             x: 146,
             y: this.start_y + 60,
-            w: -1,
-            h: -1,
-            normal_src: 'keyboard/number9_key.png',
-            press_src: 'keyboard/number9_press_key.png',
+            w: 45,
+            h: 45,
+            radius: 30,
+            text: 9,
+            text_size: 31,
+            normal_color: 0x333333,
+            press_color: 0x0986D4,
             click_func: () => {
                 this.addCharacter('9', text_input);
             }
@@ -64,10 +76,13 @@ export class keyboard
         hmUI.createWidget(hmUI.widget.BUTTON, {
             x: 2,
             y: this.start_y + 108,
-            w: -1,
-            h: -1,
-            normal_src: 'keyboard/number2_key.png',
-            press_src: 'keyboard/number2_press_key.png',
+            w: 45,
+            h: 45,
+            radius: 30,
+            text: 2,
+            text_size: 31,
+            normal_color: 0x333333,
+            press_color: 0x0986D4,
             click_func: () => {
                 this.addCharacter('2', text_input);
             }
@@ -76,10 +91,13 @@ export class keyboard
         hmUI.createWidget(hmUI.widget.BUTTON, {
             x: 50,
             y: this.start_y + 108,
-            w: -1,
-            h: -1,
-            normal_src: 'keyboard/number3_key.png',
-            press_src: 'keyboard/number3_press_key.png',
+            w: 45,
+            h: 45,
+            radius: 30,
+            text: 3,
+            text_size: 31,
+            normal_color: 0x333333,
+            press_color: 0x0986D4,
             click_func: () => {
                 this.addCharacter('3', text_input);
             }
@@ -88,10 +106,13 @@ export class keyboard
         hmUI.createWidget(hmUI.widget.BUTTON, {
             x: 98,
             y: this.start_y + 108,
-            w: -1,
-            h: -1,
-            normal_src: 'keyboard/number4_key.png',
-            press_src: 'keyboard/number4_press_key.png',
+            w: 45,
+            h: 45,
+            radius: 30,
+            text: 4,
+            text_size: 31,
+            normal_color: 0x333333,
+            press_color: 0x0986D4,
             click_func: () => {
                 this.addCharacter('4', text_input);
             }
@@ -100,10 +121,13 @@ export class keyboard
         hmUI.createWidget(hmUI.widget.BUTTON, {
             x: 146,
             y: this.start_y + 108,
-            w: -1,
-            h: -1,
-            normal_src: 'keyboard/number5_key.png',
-            press_src: 'keyboard/number5_press_key.png',
+            w: 45,
+            h: 45,
+            radius: 30,
+            text: 5,
+            text_size: 31,
+            normal_color: 0x333333,
+            press_color: 0x0986D4,
             click_func: () => {
                 this.addCharacter('5', text_input);
             }
@@ -112,10 +136,13 @@ export class keyboard
         hmUI.createWidget(hmUI.widget.BUTTON, {
             x: 2,
             y: this.start_y + 156,
-            w: -1,
-            h: -1,
-            normal_src: 'keyboard/number0_key.png',
-            press_src: 'keyboard/number0_press_key.png',
+            w: 45,
+            h: 45,
+            radius: 30,
+            text: 0,
+            text_size: 31,
+            normal_color: 0x333333,
+            press_color: 0x0986D4,
             click_func: () => {
                 this.addCharacter('0', text_input);
             }
@@ -124,10 +151,13 @@ export class keyboard
         hmUI.createWidget(hmUI.widget.BUTTON, {
             x: 50,
             y: this.start_y + 156,
-            w: -1,
-            h: -1,
-            normal_src: 'keyboard/number1_key.png',
-            press_src: 'keyboard/number1_press_key.png',
+            w: 45,
+            h: 45,
+            radius: 30,
+            text: 1,
+            text_size: 31,
+            normal_color: 0x333333,
+            press_color: 0x0986D4,
             click_func: () => {
                 this.addCharacter('1', text_input);
             }
@@ -136,10 +166,13 @@ export class keyboard
         hmUI.createWidget(hmUI.widget.BUTTON, {
             x: 98,
             y: this.start_y + 156,
-            w: -1,
-            h: -1,
-            normal_src: 'keyboard/point_key.png',
-            press_src: 'keyboard/point_press_key.png',
+            w: 45,
+            h: 45,
+            radius: 30,
+            text: '.',
+            text_size: 31,
+            normal_color: 0x333333,
+            press_color: 0x0986D4,
             click_func: () => {
                 this.addCharacter('.', text_input);
             }
@@ -148,10 +181,13 @@ export class keyboard
         hmUI.createWidget(hmUI.widget.BUTTON, {
             x: 146,
             y: this.start_y + 156,
-            w: -1,
-            h: -1,
-            normal_src: 'keyboard/delete_key.png',
-            press_src: 'keyboard/delete_press_key.png',
+            w: 45,
+            h: 45,
+            radius: 30,
+            text: "C",
+            text_size: 30,
+            normal_color: 0x333333,
+            press_color: 0xAD3C23,
             click_func: () => {
                 this.removeCharacter(text_input);
             }
