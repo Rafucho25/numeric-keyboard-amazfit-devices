@@ -4,7 +4,7 @@ A simple numeric keyboard for amazfit band 7.
 
 ## How to install
 
-* Download the folder assets and utils and replace them in your zeus project(Place the utils folder at the same level as the assets).
+* Download the utils folder at the same level as the page folder.
 
 ## How it works
 
@@ -35,3 +35,5 @@ keyboard.text_value
 This is my first project using javascript so maybe there are ways to improve the quality of the code.
 
 Let me know if you have any ideas or recommendations to improve.
+
+I will add more devices like gts 3, gts 4, etc...
