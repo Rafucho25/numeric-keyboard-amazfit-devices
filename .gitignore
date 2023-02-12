@@ -13,13 +13,11 @@ selenium-debug.log
 *.ntvs*
 *.njsproj
 *.sln
-assets
 app-side
-dist
 page
 setting
 app.json
 app.js
-package.json
-jsconfig.json
 global.d.ts
+jsconfig.json
+package.json

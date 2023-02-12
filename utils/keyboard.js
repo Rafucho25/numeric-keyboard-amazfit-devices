@@ -3,6 +3,14 @@ export class keyboard_band7
     constructor(_y = 40){
         this.text_value = ''
         this.start_y = _y
+
+        const vibrate = hmSensor.createSensor(hmSensor.id.VIBRATE)
+
+        function click() {
+            vibrate.stop()
+            vibrate.scene = 24
+            vibrate.start()
+        }
          
         hmUI.createWidget(hmUI.widget.STROKE_RECT, {
             x: 1,
@@ -24,6 +32,7 @@ export class keyboard_band7
             normal_color: 0x333333,
             press_color: 0x0986D4,
             click_func: () => {
+                click();
                 this.addCharacter('6', text_input);
             }
         })
@@ -39,6 +48,7 @@ export class keyboard_band7
             normal_color: 0x333333,
             press_color: 0x0986D4,
             click_func: () => {
+                click();
                 this.addCharacter('7', text_input);
             }
         })
@@ -54,6 +64,7 @@ export class keyboard_band7
             normal_color: 0x333333,
             press_color: 0x0986D4,
             click_func: () => {
+                click();
                 this.addCharacter('8', text_input);
             }
         })
@@ -69,6 +80,7 @@ export class keyboard_band7
             normal_color: 0x333333,
             press_color: 0x0986D4,
             click_func: () => {
+                click();
                 this.addCharacter('9', text_input);
             }
         })
@@ -84,6 +96,7 @@ export class keyboard_band7
             normal_color: 0x333333,
             press_color: 0x0986D4,
             click_func: () => {
+                click();
                 this.addCharacter('2', text_input);
             }
         })
@@ -99,6 +112,7 @@ export class keyboard_band7
             normal_color: 0x333333,
             press_color: 0x0986D4,
             click_func: () => {
+                click();
                 this.addCharacter('3', text_input);
             }
         })
@@ -114,6 +128,7 @@ export class keyboard_band7
             normal_color: 0x333333,
             press_color: 0x0986D4,
             click_func: () => {
+                click();
                 this.addCharacter('4', text_input);
             }
         })
@@ -129,6 +144,7 @@ export class keyboard_band7
             normal_color: 0x333333,
             press_color: 0x0986D4,
             click_func: () => {
+                click();
                 this.addCharacter('5', text_input);
             }
         })
@@ -144,6 +160,7 @@ export class keyboard_band7
             normal_color: 0x333333,
             press_color: 0x0986D4,
             click_func: () => {
+                click();
                 this.addCharacter('0', text_input);
             }
         })
@@ -159,6 +176,7 @@ export class keyboard_band7
             normal_color: 0x333333,
             press_color: 0x0986D4,
             click_func: () => {
+                click();
                 this.addCharacter('1', text_input);
             }
         })
@@ -174,6 +192,7 @@ export class keyboard_band7
             normal_color: 0x333333,
             press_color: 0x0986D4,
             click_func: () => {
+                click();
                 this.addCharacter('.', text_input);
             }
         })
@@ -189,6 +208,7 @@ export class keyboard_band7
             normal_color: 0x333333,
             press_color: 0xAD3C23,
             click_func: () => {
+                click();
                 this.removeCharacter(text_input);
             }
         })
@@ -240,6 +260,14 @@ export class keyboard_gts3_4
     constructor(_y = 70){
         this.text_value = ''
         this.start_y = _y
+
+        const vibrate = hmSensor.createSensor(hmSensor.id.VIBRATE)
+
+        function click() {
+            vibrate.stop()
+            vibrate.scene = 24
+            vibrate.start()
+        }
          
         hmUI.createWidget(hmUI.widget.STROKE_RECT, {
             x: 1,
@@ -261,6 +289,7 @@ export class keyboard_gts3_4
             normal_color: 0x333333,
             press_color: 0x0986D4,
             click_func: () => {
+                click();
                 this.addCharacter('6', text_input);
             }
         })
@@ -276,6 +305,7 @@ export class keyboard_gts3_4
             normal_color: 0x333333,
             press_color: 0x0986D4,
             click_func: () => {
+                click();
                 this.addCharacter('7', text_input);
             }
         })
@@ -291,6 +321,7 @@ export class keyboard_gts3_4
             normal_color: 0x333333,
             press_color: 0x0986D4,
             click_func: () => {
+                click();
                 this.addCharacter('8', text_input);
             }
         })
@@ -306,6 +337,7 @@ export class keyboard_gts3_4
             normal_color: 0x333333,
             press_color: 0x0986D4,
             click_func: () => {
+                click();
                 this.addCharacter('9', text_input);
             }
         })
@@ -321,6 +353,7 @@ export class keyboard_gts3_4
             normal_color: 0x333333,
             press_color: 0x0986D4,
             click_func: () => {
+                click();
                 this.addCharacter('2', text_input);
             }
         })
@@ -336,6 +369,7 @@ export class keyboard_gts3_4
             normal_color: 0x333333,
             press_color: 0x0986D4,
             click_func: () => {
+                click();
                 this.addCharacter('3', text_input);
             }
         })
@@ -351,6 +385,7 @@ export class keyboard_gts3_4
             normal_color: 0x333333,
             press_color: 0x0986D4,
             click_func: () => {
+                click();
                 this.addCharacter('4', text_input);
             }
         })
@@ -366,6 +401,7 @@ export class keyboard_gts3_4
             normal_color: 0x333333,
             press_color: 0x0986D4,
             click_func: () => {
+                click();
                 this.addCharacter('5', text_input);
             }
         })
@@ -381,6 +417,7 @@ export class keyboard_gts3_4
             normal_color: 0x333333,
             press_color: 0x0986D4,
             click_func: () => {
+                click();
                 this.addCharacter('0', text_input);
             }
         })
@@ -396,6 +433,7 @@ export class keyboard_gts3_4
             normal_color: 0x333333,
             press_color: 0x0986D4,
             click_func: () => {
+                click();
                 this.addCharacter('1', text_input);
             }
         })
@@ -411,6 +449,7 @@ export class keyboard_gts3_4
             normal_color: 0x333333,
             press_color: 0x0986D4,
             click_func: () => {
+                click();
                 this.addCharacter('.', text_input);
             }
         })
@@ -426,6 +465,7 @@ export class keyboard_gts3_4
             normal_color: 0x333333,
             press_color: 0xAD3C23,
             click_func: () => {
+                click();
                 this.removeCharacter(text_input);
             }
         })
@@ -477,6 +517,14 @@ export class keyboard_gts4_mini
     constructor(_y = 50){
         this.text_value = ''
         this.start_y = _y
+
+        const vibrate = hmSensor.createSensor(hmSensor.id.VIBRATE)
+
+        function click() {
+            vibrate.stop()
+            vibrate.scene = 24
+            vibrate.start()
+        }
          
         hmUI.createWidget(hmUI.widget.STROKE_RECT, {
             x: 1,
@@ -498,6 +546,7 @@ export class keyboard_gts4_mini
             normal_color: 0x333333,
             press_color: 0x0986D4,
             click_func: () => {
+                click();
                 this.addCharacter('6', text_input);
             }
         })
@@ -513,6 +562,7 @@ export class keyboard_gts4_mini
             normal_color: 0x333333,
             press_color: 0x0986D4,
             click_func: () => {
+                click();
                 this.addCharacter('7', text_input);
             }
         })
@@ -528,6 +578,7 @@ export class keyboard_gts4_mini
             normal_color: 0x333333,
             press_color: 0x0986D4,
             click_func: () => {
+                click();
                 this.addCharacter('8', text_input);
             }
         })
@@ -543,6 +594,7 @@ export class keyboard_gts4_mini
             normal_color: 0x333333,
             press_color: 0x0986D4,
             click_func: () => {
+                click();
                 this.addCharacter('9', text_input);
             }
         })
@@ -558,6 +610,7 @@ export class keyboard_gts4_mini
             normal_color: 0x333333,
             press_color: 0x0986D4,
             click_func: () => {
+                click();
                 this.addCharacter('2', text_input);
             }
         })
@@ -573,6 +626,7 @@ export class keyboard_gts4_mini
             normal_color: 0x333333,
             press_color: 0x0986D4,
             click_func: () => {
+                click();
                 this.addCharacter('3', text_input);
             }
         })
@@ -588,6 +642,7 @@ export class keyboard_gts4_mini
             normal_color: 0x333333,
             press_color: 0x0986D4,
             click_func: () => {
+                click();
                 this.addCharacter('4', text_input);
             }
         })
@@ -603,6 +658,7 @@ export class keyboard_gts4_mini
             normal_color: 0x333333,
             press_color: 0x0986D4,
             click_func: () => {
+                click();
                 this.addCharacter('5', text_input);
             }
         })
@@ -618,6 +674,7 @@ export class keyboard_gts4_mini
             normal_color: 0x333333,
             press_color: 0x0986D4,
             click_func: () => {
+                click();
                 this.addCharacter('0', text_input);
             }
         })
@@ -633,6 +690,7 @@ export class keyboard_gts4_mini
             normal_color: 0x333333,
             press_color: 0x0986D4,
             click_func: () => {
+                click();
                 this.addCharacter('1', text_input);
             }
         })
@@ -648,6 +706,7 @@ export class keyboard_gts4_mini
             normal_color: 0x333333,
             press_color: 0x0986D4,
             click_func: () => {
+                click();
                 this.addCharacter('.', text_input);
             }
         })
@@ -663,6 +722,7 @@ export class keyboard_gts4_mini
             normal_color: 0x333333,
             press_color: 0xAD3C23,
             click_func: () => {
+                click();
                 this.removeCharacter(text_input);
             }
         })
